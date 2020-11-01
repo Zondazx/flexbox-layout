@@ -20,10 +20,12 @@
 }
 
 .menu__links-signup {
+    letter-spacing: 1px;
     margin-left: auto;
 }
 
 .menu__links-login {
+    letter-spacing: 1px;
     margin-left: 1.5rem;
 }
 
@@ -66,16 +68,15 @@
     border: 3px solid #fff;
     width: 19rem;
     height: 19rem;
-
-    /* background-color: #5995da; */
 }
 
+/* Reverse order */
 .first-item {
-    order: 1;
+    /* order: -1; */
 }
 
 .last-item {
-    order: -1;
+    /* order: 1; */
 }
 
 .footer {
