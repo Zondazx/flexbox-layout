@@ -20,9 +20,15 @@ div {
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  /* justify-content: center; */
 }
 
 button:first-child {
-  align-self: flex-start;
+  order: 1;
+  /* align-self: flex-start; */
+}
+
+button:last-child {
+  order: -1;
 }
